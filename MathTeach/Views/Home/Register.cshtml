@@ -1,0 +1,15 @@
+﻿@model RegisterModel
+
+<form asp-controller="Home" asp-action="Register">
+    <div>Введите ФИО</div>
+    <input type="text" asp-for="FIO"/>
+    <div>Введите Роль</div>
+    <input type="text" asp-for="RoleId" />
+    <div>Введите Логин</div>
+    <input type="email" asp-for="Login" />
+    <div>Введите пароль</div>
+    <input type="password" asp-for="Password" />
+    <div>
+        <button type="submit">Зарегистрироваться</button>
+    </div>
+</form>

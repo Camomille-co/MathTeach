@@ -1,0 +1,10 @@
+﻿@model TeachModel
+<div>
+    Приветствую Преподавателя!
+</div>
+<div>Здравствуйте, @Model.Name</div>
+<form asp-action="LogoutAction" asp-controller="Home">
+    <div>
+        <button type="button">Выйти</button>
+    </div>
+</form>
